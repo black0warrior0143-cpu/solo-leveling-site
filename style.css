@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #654ea3, #eaafc8);
+    color: rgb(77, 76, 76);
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.nav {
+    margin-bottom: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    background: rgb(199, 31, 202);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background: slateblue;
+}
+
+.image-box img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    margin: 20px 0;
+}
